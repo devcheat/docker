@@ -65,6 +65,12 @@ Run a command in a running container.
 ```bash
 docker attach CONTAINER
 ```
+### Options
+Option	|Default	|Description
+--|--|--
+`--detach-keys`|		|Override the key sequence for detaching a container
+`--no-stdin`|		|Do not attach STDIN
+`--sig-proxy`	|`true`	|Proxy all received signals to the process
 
 Attach local standard input, output, and error streams to a running container.
 
